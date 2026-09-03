@@ -50,4 +50,3 @@ Downloaded files are excluded from version control via `.gitignore` is currently
 - No rate limiting between requests to either tatort-fans.de or the ARD API.
 - Downloads run one at a time (sequential `for` loop with `await`), not in parallel.
 - Relies on the current HTML structure of tatort-fans.de (`.teaser-title` selector) and the current shape of the ARD Mediathek API responses; both may break the script if those change.
-- Content is sourced from ARD Mediathek, Germany's public broadcaster streaming platform. Availability of individual episodes there is time-limited, and downloading/redistributing content may be subject to ARD's terms of use and German copyright law — use responsibly and for personal/offline viewing only.
